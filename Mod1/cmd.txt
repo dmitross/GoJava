@@ -1,0 +1,40 @@
+Microsoft Windows [Version 10.0.10586]
+(c) 2015 Microsoft Corporation. All rights reserved.
+
+C:\WINDOWS\system32>F:
+
+F:\>cd goit
+
+F:\GOIT>cd dz\mod1
+
+F:\GOIT\DZ\Mod1>dir
+ Volume in drive F is Local disk
+ Volume Serial Number is 8329-955E
+
+ Directory of F:\GOIT\DZ\Mod1
+
+28-Dec-15  12:08 AM    <DIR>          .
+28-Dec-15  12:08 AM    <DIR>          ..
+28-Dec-15  12:02 AM               138 Hi.java
+               1 File(s)            138 bytes
+               2 Dir(s)  27,820,433,408 bytes free
+
+F:\GOIT\DZ\Mod1>javac Hi.java
+
+F:\GOIT\DZ\Mod1>dir
+ Volume in drive F is Local disk
+ Volume Serial Number is 8329-955E
+
+ Directory of F:\GOIT\DZ\Mod1
+
+28-Dec-15  12:10 AM    <DIR>          .
+28-Dec-15  12:10 AM    <DIR>          ..
+28-Dec-15  12:10 AM               442 Hi.class
+28-Dec-15  12:02 AM               138 Hi.java
+               2 File(s)            580 bytes
+               2 Dir(s)  27,820,433,408 bytes free
+
+F:\GOIT\DZ\Mod1>java Hi
+Hi, I'm your first Java program! Stay tuned!
+
+F:\GOIT\DZ\Mod1>
