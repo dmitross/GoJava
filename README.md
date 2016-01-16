@@ -1,2 +1,2 @@
 # GoJava
-My creations of cours GoJavaOnline
+My creations of cours "GoJavaOnline".
