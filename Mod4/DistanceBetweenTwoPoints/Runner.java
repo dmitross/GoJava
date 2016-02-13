@@ -1,4 +1,4 @@
-package DistanceBetweenTwoPoints;
+package Mod4.DistanceBetweenTwoPoints;
 
 import java.util.Scanner;
 
@@ -19,6 +19,10 @@ public class Runner {
 
         CalculationDistance calcDist = new CalculationDistance();
 
-        System.out.println("Distance between x & y: " + calcDist.sqrtXY(x1, x2, y1, y2));
+        double xx = calcDist.powX(x1,x2);
+        double yy = calcDist.powY(y1, y2);
+
+        System.out.println("Distance between x & y: " + calcDist.sqrtXY(xx, yy));
+
     }
 }

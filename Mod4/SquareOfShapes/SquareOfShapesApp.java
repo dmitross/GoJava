@@ -1,4 +1,7 @@
-public class Test {
+package Mod4.SquareOfShapes;
+
+public class SquareOfShapesApp {
+
     public static void main(String[] args) {
 
         SquareOfShapes x = new SquareOfShapes();
@@ -7,9 +10,9 @@ public class Test {
         Rectungle r = new Rectungle();
         Citrkle c = new Citrkle();
 
-        System.out.println(" Test.Triangle " + x.squareOfFigure(t));
-        System.out.println(" Test.Rectungle " + x.squareOfFigure(r));
-        System.out.println(" Test.Citrkle " + x.squareOfFigure(c));
+        System.out.println(" SquareOfShapesApp.Triangle " + x.squareOfFigure(t));
+        System.out.println(" SquareOfShapesApp.Rectangle " + x.squareOfFigure(r));
+        System.out.println(" SquareOfShapesApp.Circle " + x.squareOfFigure(c));
     }
 
     public static class SquareOfShapes {
@@ -23,9 +26,9 @@ public class Test {
     }
 
     public static class Triangle implements FigSquare {
-        int a = 5;
-        int b = 6;
-        int c = 7;
+        double a = 5;
+        double b = 6;
+        double c = 7;
 
         @Override
         public double getSquare() {
@@ -35,8 +38,8 @@ public class Test {
 
     public static class Rectungle implements FigSquare {
 
-        int a = 5;
-        int b = 10;
+        double a = 5;
+        double b = 10;
 
         @Override
         public double getSquare() {

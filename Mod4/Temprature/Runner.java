@@ -1,4 +1,4 @@
-package Temprature;
+package Mod4.Temprature;
 
 import java.util.Scanner;
 
