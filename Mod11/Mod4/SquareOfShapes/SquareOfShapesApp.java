@@ -7,8 +7,8 @@ public class SquareOfShapesApp {
         SquareOfShapes x = new SquareOfShapes();
 
         Triangle t = new Triangle();
-        Rectungle r = new Rectungle();
-        Citrkle c = new Citrkle();
+        Rectangle r = new Rectangle();
+        Circle c = new Circle();
 
         System.out.println(" SquareOfShapesApp.Triangle " + x.squareOfFigure(t));
         System.out.println(" SquareOfShapesApp.Rectangle " + x.squareOfFigure(r));
@@ -26,9 +26,9 @@ public class SquareOfShapesApp {
     }
 
     public static class Triangle implements FigSquare {
-        double a = 5;
-        double b = 6;
-        double c = 7;
+        double a = 12;
+        double b = 7;
+        double c = 9;
 
         @Override
         public double getSquare() {
@@ -36,7 +36,7 @@ public class SquareOfShapesApp {
         }
     }
 
-    public static class Rectungle implements FigSquare {
+    public static class Rectangle implements FigSquare {
 
         double a = 5;
         double b = 10;
@@ -47,8 +47,8 @@ public class SquareOfShapesApp {
         }
     }
 
-    public static class Citrkle implements FigSquare {
-        double r = 7;
+    public static class Circle implements FigSquare {
+        double r = 12;
 
         @Override
         public double getSquare() {
